@@ -1,4 +1,4 @@
-#!/opt/swe/tools/ext/gnu/python-2.7.8/i686-linux2.6/bin/python -u
+#!/usr/bin/python
 
 import subprocess
 import os
