@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #Test to see if we have working internet connection 
 import socket
+from time import sleep
 REMOTE_SERVER = "www.google.com"
 
 # check connection function
