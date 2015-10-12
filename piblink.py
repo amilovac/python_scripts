@@ -5,7 +5,7 @@ import RPi.GPIO as GPIO
 from time import sleep
      
 #define the pin and its function
-LED_PIN = 25
+LED_PIN =18 
 print "Setting up GPIO"
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(LED_PIN, GPIO.OUT)

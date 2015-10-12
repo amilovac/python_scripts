@@ -3,6 +3,7 @@
 # Test to see if we have working internet connection 
 import socket
 from time import sleep
+
 REMOTE_SERVER = "www.google.com"
 
 # check connection function
@@ -19,6 +20,6 @@ def is_connected():
   except:
      pass
   return False
-print 'Internet connected? Trying to connect to google... %s' %(is_connected())
 
+print 'Internet connected? Trying to connect to google... %s' %(is_connected())
 sleep(5)
