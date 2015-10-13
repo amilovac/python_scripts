@@ -2,7 +2,6 @@
 
 # Test to see if we have working internet connection 
 import socket
-from time import sleep
 import RPi.GPIO as GPIO
 from time import sleep
 
@@ -19,6 +18,8 @@ def enable_led(should_enable):
         else:
                 GPIO.output(LED_PIN, False)
 REMOTE_SERVER = "www.google.com"
+
+#turn off LED
 enable_led(False)
 # check connection function
 # returns True if site is reachable and name can be resolved
