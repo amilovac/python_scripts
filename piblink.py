@@ -18,9 +18,9 @@ def enable_led(should_enable):
    		GPIO.output(LED_PIN, False)
 
 #start blinking     
-enable_led(False)
-print "LED is OFF"
-sleep(2)
+#enable_led(False)
+#print "LED is OFF"
+#sleep(2)
 enable_led(True)
 print "LED is ON"
 sleep(2)
