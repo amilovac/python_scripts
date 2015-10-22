@@ -30,4 +30,5 @@ sleep(2)
 enable_led(True)
 print "LED is ON"
 sleep(2)
+print("LED is OFF") 
 GPIO.cleanup()
