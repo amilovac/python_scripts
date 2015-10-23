@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 # Test to see if we have working internet connection 
 import socket
 import RPi.GPIO as GPIO
